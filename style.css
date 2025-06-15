@@ -1,0 +1,49 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  color: #222;
+  margin: 0;
+  padding: 40px;
+}
+
+a {
+  color: #567;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.intro, .articles, .contact {
+  margin-bottom: 40px;
+}
+
+.entry {
+  display: flex;
+  margin-top: 20px;
+}
+
+.date {
+  width: 100px;
+  flex-shrink: 0;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.content p:first-child {
+  font-weight: bold;
+  color: #335;
+  margin: 0;
+}
+
+.content p {
+  margin: 5px 0 0 0;
+  line-height: 1.5;
+}
